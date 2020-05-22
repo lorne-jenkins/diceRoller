@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Baby</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id="Dice-side-input-container">
+        <label for="Dice-sides">Enter a number of dice sides:</label>
+        <input type="text" name="Dice-sides" id="Dice-sides">
+        <button id='Sides-button'>Quanto?</button><br>
+        Going with: <span id="diceSide"> 6 </span>
+    </div><br>
+
+    <div id="Dice-input-container">
+        <label for="Number-of-dice">Enter a number of dice:</label>
+        <input type="text" name="Number-of-dice" id="Number-of-dice">
+        <button id='roll-button'>Roll!</button>
+    </div>
+
+    <div id="Total-Dice-Roll-Container">
+        <h2>Sum Total</h2>
+        <div class="Totals">
+            Total: <span id="sumTotal">0</span><br>
+        </div>
+
+    </div>
+    <div id="All-Rolls-Container">
+        <h2>All Rolls</h2>
+        <button id='Show-roll-button'>Show All Rolls</button>
+       <span id="Sum-total-dice-rolls">
+       <ol class = "dice"></ol>
+    </span>
+       </div>
+    </div><br>
+
+    <div id="reset-container">
+        <button id="reset-button">RESET</button><br>
+        Number of resets: <span id="num-resets">0</span>
+    </div>
+    <script src="./assets/javascript/main.js"></script>
+</body>
+
+</html>
