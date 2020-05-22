@@ -62,4 +62,6 @@ RESET.addEventListener('click', function () {
     dieRolls = []
     sumTotalelement.innerHTML = 0
     allRollsElement.innerHTML = []
+    dieSides = 6
+    maxNumberOnDice.innerHTML = dieSides
 })
